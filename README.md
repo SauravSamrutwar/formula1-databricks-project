@@ -1,1 +1,3 @@
 # formula1-databricks-project
+
+I built a full-scale data pipeline using Azure Databricks, Azure Data Lake Storage and Azure Data Factory to ingest, transform and analyse historical Formula 1 race data. Starting from raw CSV/JSON data pulled from an open API, I implemented schema-enforced ingestion and Parquet-based storage. The pipeline supports incremental loads and automatic scheduling. I used PySpark and Spark SQL to transform the data, then created dashboards to surface insights like driver standings, constructor standings and dominant teams/drivers over time. The system uses Delta Lake-style architecture for versioning, time-travel and auditability.
