@@ -21,8 +21,6 @@ Raw CSV/JSON (Open F1 API/dataset)
    Databricks SQL Dashboards → Visual insights & reporting
 ```
 
-*(Replace this ASCII diagram with an exported PNG from draw.io/Excalidraw for the actual README — GitHub renders images better than ASCII for skimmers.)*
-
 ## What This Project Does
 
 - Ingests raw Formula 1 CSV/JSON data with **schema enforcement** to catch malformed or unexpected data early
@@ -53,15 +51,12 @@ formula1/
 ├── gold/             # Aggregation & business logic notebooks
 └── dashboards/        # SQL queries powering the dashboards
 ```
-*(Update this to match your actual folder layout inside `formula1/`.)*
 
 ## Sample Insights Produced
 
 - Season-by-season driver and constructor standings
 - Most dominant drivers/teams by era
 - Race-by-race performance trends
-
-*(Add 2-3 screenshots here — a dashboard view, a notebook cell output, and the ADLS folder structure. This is the single highest-impact addition: it turns "trust me" into visible proof.)*
 
 ## What I'd Extend Next
 
